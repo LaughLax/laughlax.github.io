@@ -6,6 +6,6 @@ title = "David M. Haralson"
 
 I'm your next hire!
 
-# Who I Am (the long version)
+# Who I Am (the longer version)
 
 UNDER CONSTRUCTION
