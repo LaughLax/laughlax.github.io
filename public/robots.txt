@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://laughlax.github.io/sitemap.xml

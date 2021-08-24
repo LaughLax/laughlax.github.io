@@ -1,0 +1,39 @@
+{% extends "juice/templates/index.html" %}
+{% block hero %}
+    <section class="text-center">
+        <h1 class="heading-text" style="font-size: 50px">
+            You should hire me
+        </h1>
+        <h3 class="title-text">
+            I can do things.
+        </h3>
+    </section>
+
+    <div class="explore-more text"
+        onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+        Explore More ⇩
+    </div>
+    <style>
+        .hero section {
+            padding: 0 5rem;
+        }
+        @media screen and (max-width: 768px) {
+            .hero section {
+                padding: 0 2rem;
+            }
+
+            .hero-image {
+                display: none
+            }
+        }
+    </style>
+{% endblock hero %}
+
+
+{% block footer %}
+    <footer>
+        <small class="subtext">
+            David M. Haralson © 2021
+        </small>
+    </footer>
+{% endblock footer %}
