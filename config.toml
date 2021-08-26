@@ -21,6 +21,7 @@ highlight_code = false
 juice_logo_name = "David M. Haralson"
 juice_logo_path = "Logo_Circular.png"
 juice_extra_menu = [
+    { title = "LinkedIn", link = "https://www.linkedin.com/in/dmharalson/" },
     { title = "GitHub", link = "https://github.com/laughlax" }
 ]
-repository_url = "https://github.com/laughlax"
+repository_url = "https://github.com/laughlax/laughlax.github.io"

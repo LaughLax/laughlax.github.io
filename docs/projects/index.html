@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Projects |  </title>
+    <title>My Projects |  </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
     :root {
@@ -42,9 +42,11 @@
 
 <nav>
     
-    <a class="nav-item subtitle-text" href="https:&#x2F;&#x2F;laughlax.github.io&#x2F;projects&#x2F;">Projects</a>
+    <a class="nav-item subtitle-text" href="https:&#x2F;&#x2F;laughlax.github.io&#x2F;projects&#x2F;">My Projects</a>
     
     
+        
+        <a class="nav-item subtitle-text" href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;dmharalson&#x2F;">LinkedIn</a>
         
         <a class="nav-item subtitle-text" href="https:&#x2F;&#x2F;github.com&#x2F;laughlax">GitHub</a>
         
@@ -64,17 +66,22 @@
             <div class="toc-sticky">
                 
                 <div class="toc-item">
-                    <a class="subtext" href="https://laughlax.github.io/projects/#rynbot">RynBot</a>
+                    <a class="subtext" href="https://laughlax.github.io/projects/#rynbot-python">RynBot (Python)</a>
                 </div>
                 
                 
                 <div class="toc-item">
-                    <a class="subtext" href="https://laughlax.github.io/projects/#icarus">Icarus</a>
+                    <a class="subtext" href="https://laughlax.github.io/projects/#advent-of-code-python">Advent of Code (Python)</a>
                 </div>
                 
                 
                 <div class="toc-item">
-                    <a class="subtext" href="https://laughlax.github.io/projects/#advent-of-code">Advent of Code</a>
+                    <a class="subtext" href="https://laughlax.github.io/projects/#icarus-javascript">Icarus (JavaScript)</a>
+                </div>
+                
+                
+                <div class="toc-item">
+                    <a class="subtext" href="https://laughlax.github.io/projects/#eia-930-charts-python">EIA-930-charts (Python)</a>
                 </div>
                 
                 
@@ -90,27 +97,43 @@
 
         <div class="content text">
             
-<div class="heading-text">Projects</div>
-<h1 id="rynbot">RynBot</h1>
-<p>I created and maintained <strong>RynBot</strong> (link to be added), a bot application for Discord in <strong>Python</strong> using the <a href="https://github.com/Rapptz/discord.py">discord.py</a> library. Its features included:</p>
+<div class="heading-text">My Projects</div>
+<h1 id="rynbot-python"><a href="https://github.com/LaughLax/RynBot">RynBot</a> (Python)</h1>
+<p>I created and maintained <strong>RynBot</strong> (link to be added), a bot application for Discord using the <a href="https://github.com/Rapptz/discord.py">discord.py</a> library. Its features included:</p>
 <ul>
-<li>Modular design that allows updates to be deployed without downtime</li>
+<li>Modular design for updates to be deployed without downtime</li>
 <li><strong>MySQL</strong> database for persistent data storage</li>
 <li>Database structure deployed using <a href="https://pypi.org/project/alembic/">Alembic</a></li>
 <li><strong>Redis</strong> cache to reduce calls to database</li>
-<li>Multithreading and multiprocessing to ensure application stays responsive during CPU-intensive tasks</li>
+<li>Multithreading and multiprocessing to offload CPU-intensive tasks and keep application responsive</li>
+<li>Self-hosted on a Raspberry Pi 3 running <strong>Debian</strong> Linux</li>
 </ul>
-<p>Here are a few things I learned about while building it:</p>
+<p>Here are a couple other things I learned about while building it:</p>
 <ul>
 <li>How to use and create decorator functions.</li>
-<li>How to use <code>async</code> and <code>await</code>. Beyond just learning what these are and when they're required, I also built a decorator to convert a synchronous database call into an asynchronous function.</li>
+<li>How to use <code>async</code> and <code>await</code>. I also built a decorator to convert synchronous database calls into asynchronous functions.</li>
 </ul>
-<h1 id="icarus"><a href="https://github.com/gaiwecoor/icarus4">Icarus</a></h1>
-<p>I am an active contributor to <strong>Icarus</strong>, another bot application for Discord; Icarus is written in <strong>JavaScript</strong> and uses the <a href="https://discord.js.org/">discord.js</a> library. With the recent release of discord.js v13, we're currently working to migrate Icarus to its next major version (<a href="https://github.com/gaiwecoor/icarus5">v5</a>).</p>
+<h1 id="advent-of-code-python"><a href="https://github.com/LaughLax/Advent-of-Code">Advent of Code</a> (Python)</h1>
+<p>Since 2018, I've participated in the <a href="https://adventofcode.com/">Advent of Code</a> (AoC) event run by Eric Wastl. AoC is a set of 25 two-part coding challenges, presented one per day December 1 through Christmas. In 2019 and 2020, I was among the <strong>first 1,000 people</strong> to complete many of the challenges. Several times, I was among the first 100. My completion time and rank for each problem can be viewed at the repository.</p>
+<p>Here are some skills I used, improved, or learned while completing these problems:</p>
+<ul>
+<li>Selecting the right <strong>data structures</strong> for the problem, such as maps, linked lists, or trees.</li>
+<li>Preparing a project environment for rapid development and testing</li>
+</ul>
 <p>(more info goes here)</p>
-<h1 id="advent-of-code">Advent of Code</h1>
-<p>Since 2019, I've participated in the Advent of Code event run by Eric Wastl.</p>
+<h1 id="icarus-javascript"><a href="https://github.com/gaiwecoor/icarus4">Icarus</a> (JavaScript)</h1>
+<p>I am an active contributor to <strong>Icarus</strong>, another bot application for Discord. Icarus uses the <a href="https://discord.js.org/">discord.js</a> library. With the recent release of discord.js v13, we're currently working to migrate Icarus to its next major version (<a href="https://github.com/gaiwecoor/icarus5">v5</a>). Features I contributed to or revised include:</p>
+<ul>
+<li>(info goes here)</li>
+</ul>
+<p>Here are a couple other things I learned about while building it:</p>
+<ul>
+<li>Collaborative <strong>Git</strong> workflow tasks such as forking, feature branches, and code review through pull requests.</li>
+</ul>
 <p>(more info goes here)</p>
+<h1 id="eia-930-charts-python"><a href="https://github.com/LaughLax/EIA-930-charts">EIA-930-charts</a> (Python)</h1>
+<p>I made this collection of scripts to make charts (both interactive and static) from a particular public dataset from the U.S. Energy Information Administration.</p>
+<p>(include example charts here)</p>
 <h1 id="more-projects-go-here">(More projects go here)</h1>
 <p>(more info goes here)</p>
 
@@ -125,6 +148,9 @@
     <footer>
         <small class="subtext">
             David M. Haralson © 2021
+        </small>
+        <small class="subtext">
+            Built with <a href="https://www.getzola.org/">Zola</a>
         </small>
     </footer>
 
