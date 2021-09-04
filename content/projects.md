@@ -50,6 +50,3 @@ I made this collection of scripts to make charts (both interactive and static) f
 - [Generation by source in ERCOT](/ERCO_EIA_930_Generation_Sources.html)
 - [Demand ramp in CAISO](/CISO_EIA_930_Demand_Ramp_Heatmap.png)
 - [Generation in MISO](/MISO_EIA_930_Generation_Heatmap.png)
-
-# Other
-
