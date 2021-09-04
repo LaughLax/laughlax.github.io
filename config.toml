@@ -19,9 +19,10 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-juice_logo_name = "David M. Haralson"
-juice_logo_path = "Logo_Circular.png"
+juice_logo_name = ""
+juice_logo_path = "headshot_circular.png"
 juice_extra_menu = [
+    { title = "Resume", link = "/David-M-Haralson-Resume.pdf" },
     { title = "LinkedIn", link = "https://www.linkedin.com/in/dmharalson/" },
     { title = "GitHub", link = "https://github.com/laughlax" }
 ]

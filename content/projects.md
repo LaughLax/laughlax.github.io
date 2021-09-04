@@ -1,12 +1,12 @@
 +++
 title = "My Projects"
-description = "My Projects"
+description = "Selected Personal Projects"
 weight = 1
 +++
 
 # [RynBot](https://github.com/LaughLax/RynBot) (Python)
 
-I created and maintained **RynBot** (link to be added), a bot application for Discord using the [discord.py](https://github.com/Rapptz/discord.py) library. Its technical features included:
+I created and maintained **RynBot**, a bot application for Discord using the [discord.py](https://github.com/Rapptz/discord.py) library. Its technical features included:
 
 - Modular design for updates to be deployed without downtime
 - **MySQL** database for persistent data storage
@@ -23,7 +23,7 @@ Here are a couple other things I learned about while building it:
 
 # [Advent of Code](https://github.com/LaughLax/Advent-of-Code) (Python)
 
-Since 2018, I've participated in the annual [Advent of Code](https://adventofcode.com/) (AoC) event created by Eric Wastl. AoC is a set of 25 two-part coding challenges, presented one per day December 1 through Christmas. In 2019 and 2020, I was among the **first 1,000 people** to complete many of the challenges. Several times, I was among the first 100. My completion time and rank for each problem can be viewed at my code repository (linked above).
+Since 2018, I've participated in the annual [Advent of Code](https://adventofcode.com/) (AoC) event created by Eric Wastl. AoC is a set of 25 two-part coding challenges, presented one per day December 1 through Christmas. In 2019 and 2020, I was among the first 1,000 people to complete many of the challenges. **Several times, I was among the first 100.** My completion time and rank for each problem can be viewed at my code repository (linked above).
 
 Here are some skills I used, improved, or learned while completing these problems:
 
@@ -51,6 +51,5 @@ I made this collection of scripts to make charts (both interactive and static) f
 - [Demand ramp in CAISO](/CISO_EIA_930_Demand_Ramp_Heatmap.png)
 - [Generation in MISO](/MISO_EIA_930_Generation_Heatmap.png)
 
-# (More projects go here)
+# Other
 
-(more info goes here)
