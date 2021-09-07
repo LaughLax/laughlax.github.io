@@ -44,9 +44,9 @@ While contributing, I also learned about collaborative **Git** workflow tasks su
 
 # [EIA-930-charts](https://github.com/LaughLax/EIA-930-charts) (Python)
 
-I made this collection of scripts to make charts (both interactive and static) from a particular public dataset from the U.S. Energy Information Administration. Here are a few examples of generated charts:
+I made this collection of scripts to make charts (both interactive and static) from a particular public dataset provided by the U.S. Energy Information Administration. The scripts use **numpy** and **pandas** for data processing, **matplotlib** for static images, and **plotly** for interactive charts. Here are a few examples of generated charts:
 
-- [Demand in Southwest Power Pool](/SWPP_EIA_930_Demand_Heatmap.png)
-- [Generation by source in ERCOT](/ERCO_EIA_930_Generation_Sources.html)
-- [Demand ramp in CAISO](/CISO_EIA_930_Demand_Ramp_Heatmap.png)
-- [Generation in MISO](/MISO_EIA_930_Generation_Heatmap.png)
+- [Demand in Southwest Power Pool](/SWPP_EIA_930_Demand_Heatmap.png) (static heatmap)
+- [Generation by source in ERCOT](/ERCO_EIA_930_Generation_Sources.html) (interactive chart)
+- [Demand ramp in CAISO](/CISO_EIA_930_Demand_Ramp_Heatmap.png) (static heatmap)
+- [Generation in MISO](/MISO_EIA_930_Generation_Heatmap.png) (static heatmap)
